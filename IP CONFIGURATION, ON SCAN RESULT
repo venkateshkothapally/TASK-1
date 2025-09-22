@@ -20,7 +20,7 @@ Wireless LAN adapter Wi-Fi:
    IPv6 Address. . . . . . . . . . . : 2409:40f0:6042:7415:1e10:d7df:b76a:6d45
    Temporary IPv6 Address. . . . . . : 2409:40f0:6042:7415:fd68:14c6:1778:138f
    Link-local IPv6 Address . . . . . : fe80::e1f1:931e:2619:4c06%3
-   IPv4 Address. . . . . . . . . . . : **.***.***.***
+   IPv4 Address. . . . . . . . . . . :  10.118.142.156
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : fe80::a06f:a9ff:feee:4637%3
                                        10.118.142.103
@@ -31,7 +31,7 @@ Ethernet adapter Bluetooth Network Connection:
    Connection-specific DNS Suffix  . :
 
 
-PS C:\Users\venkat> nmap -sS **.***.***.*** -oN scan_result.txt
+PS C:\Users\venkat> nmap -sS  10.118.142.156 -oN scan_result.txt
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 19:54 +0530
 Nmap scan report for 10.118.142.156
 Host is up (0.000036s latency).
