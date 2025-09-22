@@ -1,0 +1,44 @@
+
+PS C:\Users\venkat> ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2409:40f0:6042:7415:1e10:d7df:b76a:6d45
+   Temporary IPv6 Address. . . . . . : 2409:40f0:6042:7415:fd68:14c6:1778:138f
+   Link-local IPv6 Address . . . . . : fe80::e1f1:931e:2619:4c06%3
+   IPv4 Address. . . . . . . . . . . : **.***.***.***
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::a06f:a9ff:feee:4637%3
+                                       10.118.142.103
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+
+PS C:\Users\venkat> nmap -sS **.***.***.*** -oN scan_result.txt
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 19:54 +0530
+Nmap scan report for 10.118.142.156
+Host is up (0.000036s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 2.46 seconds
